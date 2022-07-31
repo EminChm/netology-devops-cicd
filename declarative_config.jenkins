@@ -2,7 +2,7 @@ pipeline {
  agent any
  stages {
   stage('Git') {
-   steps {git 'https://github.com/EminChm/netology-devops-cicd/declarative_config.jenkins.git'}
+   steps {git 'http://github.com/EminChm/netology-devops-cicd.git'}
   }
   stage('Test') {
    steps {
